@@ -6,7 +6,7 @@ class Config(object):
     SECRET_KEY = os.environ.get('SECRET_KEY') or 'secret-key'
 
     BLOB_ACCOUNT = os.environ.get('BLOB_ACCOUNT') or 'demopstorage'
-    BLOB_STORAGE_KEY = os.environ.get('BLOB_STORAGE_KEY') or 'tTBWTkveoHPCmRIGRzgbqK9Pa7s18WxYx/WNeo4uNSI8vnfNjVfYcxpdXbxCYEaGkhZ8Gsx9YFxMND/2uJV4dg=='
+    BLOB_STORAGE_KEY = os.environ.get('BLOB_STORAGE_KEY') or 'HV23k5Tiex4yPQqqWInwneqXecMaxGRSvjSbXHjlZzXT8rqgU4nHkOfR1n/MWbQjQeV0VpeHMBuVC5JWAIkHvA=='
     BLOB_CONTAINER = os.environ.get('BLOB_CONTAINER') or 'images'
 
     SQL_SERVER = os.environ.get('SQL_SERVER') or 'demo-dbserver.database.windows.net'
