@@ -19,7 +19,7 @@ class Config(object):
 
     ### Info for MS Authentication ###
     ### As adapted from: https://github.com/Azure-Samples/ms-identity-python-webapp ###
-    CLIENT_SECRET = "ab10d71a-275e-4a43-b2d8-3bc139d5d6fb"
+    CLIENT_SECRET = "Bt57Q~P_MpKg5Vs85zBP1lSgeTqT6dfEwpo-8"
     # In your production app, Microsoft recommends you to use other ways to store your secret,
     # such as KeyVault, or environment variable as described in Flask's documentation here:
     # https://flask.palletsprojects.com/en/1.1.x/config/#configuring-from-environment-variables
