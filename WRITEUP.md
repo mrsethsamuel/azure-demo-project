@@ -7,22 +7,6 @@
 - *Choose the appropriate solution (VM or App Service) for deploying the app*
 - *Justify your choice*
 
---------------------
-#### Analysis
-
-**Costs**:
-In terns of cost, an App service would be more flexible since more than one app can be made to share
-the App Service plan. A Virtual machine has the advantage of being able to be deallocated when not in use
-in order to cut costs
-
-**Scalability**:
-Both the Virtual machine and the App Service can be scalled horizontally and vertically. VMs can be scalled horizontally using a VMSS, while App Service's have native Auto scalling properties
-
-**Availability**:
-In terms of availability Virtual machines generally have more availability than App Services, but require extra setup and configuration to be fault tolerant and avoid downtimes during maintenance and upgrades
-
-**Workflow**:
-It is fairly easier to deploy applications to App Service than it is to Virtual Machines. Although an automated CI/CD pipeline could be designed to resolve this issue, overhead time would be spent in the process
 
 --------------------
 #### Decision
@@ -32,7 +16,7 @@ Deployment option: App Service ([https://democapp.azurewebsites.net/](https://de
 --------------------
 #### Justification
 
-An App Service is a PaaS offering meaning that you just have to deploy your code and not worry about the underlying infrastructure. The application is designed to be cloud native removing the need for server management and optimization. It also has good pricing tiers and gives adequate room for scalability. Another caveat is the wide range of deployment options available that can easily be integrated into a production workflow
+Azure VMs cost more to run than Azure App Service. Azure App Service is less scalable than Azure VMs. So Azure VMs are favored for apps that can grow in the future. Compared to Azure Virtual Machines, Azure App Service requires far less management. Azure App Service makes app development easier and faster. Azure VMs provide developers more power. In Azure App Service, you can't specify the VM's OS. Pay -as-you-go is  Not available in Azure App Service, So you pay for a service plan even if you don't use it. Certain programming languages may not be supported by Azure App Service. In that instance, one must use Azure VM to create a language environment.
 
 --------------------
 
