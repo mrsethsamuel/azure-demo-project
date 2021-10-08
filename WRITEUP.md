@@ -9,12 +9,12 @@
 
 
 --------------------
-#### Decision
+### Decision
 
 Deployment option: App Service ([https://democapp.azurewebsites.net/](https://democapp.azurewebsites.net/))
 
 --------------------
-#### Justification
+### Resource Justification
 
 Azure VMs cost more to run than Azure App Service. Azure App Service is less scalable than Azure VMs. So Azure VMs are favored for apps that can grow in the future. Compared to Azure Virtual Machines, Azure App Service requires far less management. Azure App Service makes app development easier and faster. Azure VMs provide developers more power. In Azure App Service, you can't specify the VM's OS. Pay -as-you-go is  Not available in Azure App Service, So you pay for a service plan even if you don't use it. Certain programming languages may not be supported by Azure App Service. In that instance, one must use Azure VM to create a language environment.
 
