@@ -11,7 +11,7 @@
 #### Analysis
 
 **Costs**:
-In terns of cost, an App service would be mmore flexible since more than one app can be made to share
+In terns of cost, an App service would be more flexible since more than one app can be made to share
 the App Service plan. A Virtual machine has the advantage of being able to be deallocated when not in use
 in order to cut costs
 
